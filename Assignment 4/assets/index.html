@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Matthew's Crystal Clicker Game!</title>
+	<!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" type="text/css" href="reset/style.css">-->    
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Bootstrap and Google Fonts -->    
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+	<script src="javascript/game.js"></script>
+
+<!-- 	I Need an image click for all of the rupee buttons, with values that call the random rupee function...
+ -->
+ 	<nav class="navbar navbar-inverse" style="background-color: #346ead">
+		<div class="container-fluid">
+			<!--Logo! -->	
+			<div class="navbar-header">
+        	<a href="index.html">
+				<img src="http://oi63.tinypic.com/2ltg6dw.jpg" style= "width: 200px; height: 80px">
+        	</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div id="ccTitle">Crystal Clicker</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-6" id="targetNumber"></div>
+			<div class="col-sm-6" id="playerNumber"></div>
+		</div>		
+	</div>
+
+	<div class="container-fluid">
+		<div class="row text-center" id="crystals">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-1">
+				<div id="rupees1">
+					<img src="images/rupees1.png" style="width: 100px; height: 165px">
+				</div>
+			</div>
+			<div class="col-sm-1">
+				<div id="rupees2">
+					<img src="images/rupees2.png" style="width: 100px; height: 165px">
+				</div>
+			</div>
+			<div class="col-sm-1">
+				<div id="rupees3">
+					<img src="images/rupees3.png" style="width: 100px; height: 165px">
+				</div>
+			</div>
+			<div class="col-sm-1">
+				<div id="rupees4">
+					<img src="images/rupees4.png" style="width: 100px; height: 165px">
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>		
+	</div>
+
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-6" id="wins"></div>
+			<div class="col-sm-6" id="losses"></div>
+		</div>
+	</div>
+
+
+	<footer class="container-fluid text-center" style="background-color: #285586">
+  		<p id="footer-text" style="color: white"><strong>Copyright 2017 Matthew Reid</strong></p>
+	</footer>
+
+</body>
+</html>

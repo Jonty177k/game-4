@@ -1,0 +1,56 @@
+
+#ccTitle {
+/*	background-color: #cee5ff;
+*/	font-family: 'Permanent Marker', cursive;
+	font-size: 70px;
+	color:#00254e;
+}
+#targetNumber {
+/*	background-color: #cee5ff;
+*/	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	color: #ff5353;	
+	border-style: solid;
+	border-width: 2px;
+}
+#playerNumber {
+/*	background-color: #cee5ff;
+*/	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	color: #f9ff69;	
+	border-style: solid;
+	border-width: 2px;
+}
+#wins {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	color:#00254e;
+}
+#losses {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	color:#00254e;
+}
+#footer-text {
+	padding-top: 10px;
+	height: 50px;
+}
+
+#crystals {
+/*	background-color: #cee5ff;
+*//*	color: #ffd633;	
+	border-style: solid;
+	border-width: 2px;*/
+}
+#rupees1:hover {
+	opacity: .7;
+}
+#rupees2:hover {
+	opacity: .7;
+}
+#rupees3:hover {
+	opacity: .7;
+}
+#rupees4:hover {
+	opacity: .7;
+}
